@@ -17,7 +17,7 @@ const competences = [
     description: `Conception d’une architecture réseau Cisco (routeurs + switchs L3)\n\nÉlaboration d’un plan d’adressage IP (postes clients, serveurs, imprimantes)\n\nSegmentation réseau par VLAN (Direction, Ventes, Comptabilité, Production, Techniciens, Serveurs)\n\nRoutage inter-VLAN et configuration des sous-interfaces (802.1Q)\n\nDéploiement d’un serveur DHCP/DNS et d’un serveur web\n\nConfiguration des passerelles, DNS et réservations IP pour les clients\n\nDocumentation et cartographie réseau (adressage + interconnexions)\n\nMise en place d’une sécurisation des flux via cloisonnement et hiérarchisation des VLAN.`
   },
 {
-  image: "/images/Active Directory.png",
+  image: "/images/Active_Directory.png",
     title: "Active Directory & Déploiement PC",
     description: `Injection de 45 PC dans le domaine Active Directory, configuration, et mise en place d'un tableau de rendez-vous avec les salariés pour effectuer le remplacement de leur poste et outils de travail.`
   },
