@@ -2,12 +2,12 @@ import React from "react";
 
 const competences = [
   {
-  image: "/images/Fortinet.png",
+  image: "/public/images/Fortinet.png",
     title: "Fortinet - Sécurisation d’infrastructures (DMZ)",
     description: `Hardening et reconfiguration d’une DMZ (firewall Fortinet – règles ACL, segmentation VLAN, gestion des flux entrants/sortants).\nMise en place d’un filtrage granulaire des flux réseau dans une DMZ (principes de moindre privilège, ouverture/fermeture de ports).`
   },
   {
-  image: "/images/Zabbix_logo_square.svg.png",
+  image: "/public/images/Zabbix_logo_square.svg.png",
     title: "Zabbix - Supervision & Cartographie",
     description: `Refonte des plans d'un bâtiment pour placer les imprimantes et bornes WiFi à chaque étage, en appliquant leur IP et nom. Mise à jour de la cartographie du plan réseau pour toutes les antennes WiFi de l'entreprise.`
   },
