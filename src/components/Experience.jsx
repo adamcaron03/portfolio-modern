@@ -11,8 +11,8 @@ const experiences = [
         <div>Stage 2e année BTS SIO. Sécurisation d’infrastructures (Fortinet, DMZ), supervision réseau (Zabbix, GLPI), administration Windows/Linux, déploiement et migration de postes, gestion de tickets et GPO.</div>
 
         <h5 className="font-semibold mt-3">Missions réalisées</h5>
-        <ol className="list-decimal ml-5 space-y-3 mt-2">
-          <li>
+        <div className="space-y-3 mt-2 ml-0">
+          <div>
             <strong>Refonte et sécurisation de la DMZ (Fortinet)</strong>
             <p><strong>Problème identifié :</strong> la DMZ n’était pas suffisamment cloisonnée ; certaines règles de pare-feu étaient trop permissives.</p>
             <p><strong>Objectif :</strong> renforcer la sécurité et limiter les flux réseau non nécessaires.</p>
@@ -25,9 +25,9 @@ const experiences = [
               <li>Mise en place d’un filtrage granulaire des flux entrants/sortants.</li>
             </ul>
             <p><strong>Résultat :</strong> Réduction de 40 % des flux ouverts dans la DMZ. Infrastructure réseau plus segmentée et conforme aux bonnes pratiques de sécurité.</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <strong>Remplacement et déploiement de 45 postes utilisateurs</strong>
             <p><strong>Problème identifié :</strong> de nombreux postes étaient obsolètes et incompatibles avec les politiques de sécurité actuelles (chiffrement, GPO, compatibilité réseau).</p>
             <p><strong>Objectif :</strong> remplacer les anciens PC tout en intégrant les nouveaux dans le domaine Active Directory.</p>
@@ -39,9 +39,9 @@ const experiences = [
               <li>Vérification des droits utilisateurs, des connexions réseau et des profils.</li>
             </ul>
             <p><strong>Résultat :</strong> Poste utilisateur modernisé et intégré au système centralisé. Gain en performance et compatibilité avec les outils de chiffrement (BitLocker) et de supervision.</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <strong>Supervision et cartographie du réseau (Zabbix)</strong>
             <p><strong>Problème identifié :</strong> les plans réseau n’étaient plus à jour et certaines antennes Wi‑Fi n’étaient pas correctement documentées.</p>
             <p><strong>Objectif :</strong> actualiser la supervision réseau pour améliorer le suivi des équipements.</p>
@@ -53,9 +53,9 @@ const experiences = [
               <li>Vérification du bon fonctionnement de la supervision.</li>
             </ul>
             <p><strong>Résultat :</strong> Vue réseau complète, claire et actualisée. Facilitation du diagnostic lors d’incidents réseau.</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <strong>Gestion du parc et assistance technique (GLPI & ManageEngine)</strong>
             <p><strong>Problème identifié :</strong> grand nombre d’incidents utilisateurs non centralisés et lenteur dans le traitement.</p>
             <p><strong>Objectif :</strong> améliorer le suivi et la réactivité du support technique.</p>
@@ -66,13 +66,13 @@ const experiences = [
               <li>Utilisation de ManageEngine Desktop Central pour le déploiement de logiciels, la prise en main à distance, et la gestion de l’inventaire matériel.</li>
             </ul>
             <p><strong>Résultat :</strong> Réduction du temps moyen de résolution des incidents. Meilleure visibilité sur l’état du parc informatique.</p>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <strong>Supervision complémentaire et outils de sécurité</strong>
             <p>Participation à la configuration de BitLocker pour le chiffrement des disques. Découverte de Genetec, solution utilisée pour la vidéosurveillance et le contrôle d’accès.</p>
-          </li>
-        </ol>
+          </div>
+        </div>
       </>
     )
   },
