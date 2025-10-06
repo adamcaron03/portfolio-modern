@@ -2,32 +2,32 @@ import React from "react";
 
 const competences = [
   {
-  image: "/public/images/Fortinet.png",
+    image: process.env.PUBLIC_URL + "/images/Fortinet.png",
     title: "Fortinet - Sécurisation d’infrastructures (DMZ)",
     description: `Hardening et reconfiguration d’une DMZ (firewall Fortinet – règles ACL, segmentation VLAN, gestion des flux entrants/sortants).\nMise en place d’un filtrage granulaire des flux réseau dans une DMZ (principes de moindre privilège, ouverture/fermeture de ports).`
   },
   {
-  image: "/public/images/Zabbix_logo_square.svg.png",
+    image: process.env.PUBLIC_URL + "/images/Zabbix_logo_square.svg.png",
     title: "Zabbix - Supervision & Cartographie",
     description: `Refonte des plans d'un bâtiment pour placer les imprimantes et bornes WiFi à chaque étage, en appliquant leur IP et nom. Mise à jour de la cartographie du plan réseau pour toutes les antennes WiFi de l'entreprise.`
   },
   {
-  image: "/images/Cisco-Webex-Calling.png",
+    image: process.env.PUBLIC_URL + "/images/Cisco-Webex-Calling.png",
     title: "TP Réseaux (Cisco) - Architecture & Sécurisation",
-    description: `Conception d’une architecture réseau Cisco (routeurs + switchs L3)\n\nÉlaboration d’un plan d’adressage IP (postes clients, serveurs, imprimantes)\n\nSegmentation réseau par VLAN (Direction, Ventes, Comptabilité, Production, Techniciens, Serveurs)\n\nRoutage inter-VLAN et configuration des sous-interfaces (802.1Q)\n\nDéploiement d’un serveur DHCP/DNS et d’un serveur web\n\nConfiguration des passerelles, DNS et réservations IP pour les clients\n\nDocumentation et cartographie réseau (adressage + interconnexions)\n\nMise en place d’une sécurisation des flux via cloisonnement et hiérarchisation des VLAN.`
+    description: `Conception d’une architecture réseau Cisco (routeurs + switchs L3)\n\nÉlaboration d’un plan d’adressage IP ...`
   },
-{
-  image: "/images/Active_Directory.png",
+  {
+    image: process.env.PUBLIC_URL + "/images/Active_Directory.png",
     title: "Active Directory & Déploiement PC",
-    description: `Injection de 45 PC dans le domaine Active Directory, configuration, et mise en place d'un tableau de rendez-vous avec les salariés pour effectuer le remplacement de leur poste et outils de travail.`
+    description: `Injection de 45 PC dans le domaine Active Directory ...`
   },
   {
-  image: "/images/PictoGlpi.png",
+    image: process.env.PUBLIC_URL + "/images/PictoGlpi.png",
     title: "GLPI - Gestion de tickets",
-    description: `Gestion des tickets pour intervenir sur l'ensemble de l'entreprise (problèmes utilisateurs, techniques, PC, imprimantes, périphériques, etc.). Création de GPO, gestion de VLAN.`
+    description: `Gestion des tickets pour intervenir sur l'ensemble de l'entreprise ...`
   },
   {
-  image: "/images/UbuntuCoF.svg.png",
+    image: process.env.PUBLIC_URL + "/images/UbuntuCoF.svg.png",
     title: "Automatisation & Linux",
     description: `Création de serveurs d'automatisation et de serveurs sous Linux sous forme de VM.`
   }
