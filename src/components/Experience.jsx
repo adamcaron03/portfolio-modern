@@ -28,23 +28,33 @@ export default function Experience() {
   return (
     <section id="experience" className="p-12 bg-gray-100 dark:bg-gray-800">
       <h3 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
-        Expériences
+        Expériences professionnelles
       </h3>
       <div className="max-w-4xl mx-auto space-y-6">
         {experiences.map((exp, i) => (
           <div
             key={i}
-            className="p-6 bg-white dark:bg-gray-700 rounded shadow"
+            className="p-6 bg-white dark:bg-gray-700 rounded shadow flex items-start space-x-4"
           >
-            <h4 className="font-bold text-gray-900 dark:text-white">{exp.title}</h4>
-            <span className="block text-gray-700 dark:text-gray-300 font-semibold">
-              {exp.company}
-              {exp.companyInfo && (
-                <span className="ml-2 text-xs text-gray-500 dark:text-gray-400 font-normal">{exp.companyInfo}</span>
-              )}
-            </span>
-            <span className="text-gray-700 dark:text-gray-300">{exp.date}</span>
-            <p className="text-gray-700 dark:text-gray-300 mt-2">{exp.description}</p>
+            {/* If company contains AMSOM, show the logo/image */}
+            {exp.company && /AMSOM/i.test(exp.company) && (
+              <img src={`${process.env.PUBLIC_URL}/images/Amsom.png`} alt="AMSOM" className="w-20 h-20 object-contain rounded" />
+            )}
+            {/* If company contains Orange, show Orange Bank logo */}
+            {exp.company && /Orange/i.test(exp.company) && (
+              <img src={`${process.env.PUBLIC_URL}/images/Orange_bank.png`} alt="Orange Bank" className="w-20 h-20 object-contain rounded" />
+            )}
+            <div>
+              <h4 className="font-bold text-gray-900 dark:text-white">{exp.title}</h4>
+              <span className="block text-gray-700 dark:text-gray-300 font-semibold">
+                {exp.company}
+                {exp.companyInfo && (
+                  <span className="ml-2 text-xs text-gray-500 dark:text-gray-400 font-normal">{exp.companyInfo}</span>
+                )}
+              </span>
+              <span className="text-gray-700 dark:text-gray-300">{exp.date}</span>
+              <p className="text-gray-700 dark:text-gray-300 mt-2">{exp.description}</p>
+            </div>
           </div>
         ))}
       </div>
