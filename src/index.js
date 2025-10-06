@@ -11,4 +11,7 @@ root.render(
   </React.StrictMode>
 );
 
+// Ensure the page title matches the app name
+document.title = document.title || "Bienvenu";
+
 reportWebVitals();
