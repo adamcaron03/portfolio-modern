@@ -26,8 +26,8 @@ export default function Hero() {
             <h5 className="font-semibold text-green-700 dark:text-green-300 mb-1">Passions</h5>
             <ul className="list-disc list-inside text-gray-800 dark:text-gray-200 text-base">
               <li>Sport</li>
-              <li>Le Dimanche</li>
-              <li>Moto GP</li>
+              <li>Moto</li>
+              <li>Plongée</li>
             </ul>
           </div>
           <div className="bg-yellow-100 dark:bg-yellow-900/60 rounded-xl shadow-md px-6 py-4 min-w-[220px] max-w-xs text-left">
