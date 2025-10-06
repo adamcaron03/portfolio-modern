@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-modern/static/css/main.ccbd7b88.css",
-    "main.js": "/portfolio-modern/static/js/main.6d4f41b9.js",
+    "main.css": "/portfolio-modern/static/css/main.1122f6c6.css",
+    "main.js": "/portfolio-modern/static/js/main.43b71f9c.js",
     "static/js/488.e269ea76.chunk.js": "/portfolio-modern/static/js/488.e269ea76.chunk.js",
     "service-worker.js": "/portfolio-modern/service-worker.js",
     "index.html": "/portfolio-modern/index.html",
-    "main.ccbd7b88.css.map": "/portfolio-modern/static/css/main.ccbd7b88.css.map",
-    "main.6d4f41b9.js.map": "/portfolio-modern/static/js/main.6d4f41b9.js.map",
+    "main.1122f6c6.css.map": "/portfolio-modern/static/css/main.1122f6c6.css.map",
+    "main.43b71f9c.js.map": "/portfolio-modern/static/js/main.43b71f9c.js.map",
     "488.e269ea76.chunk.js.map": "/portfolio-modern/static/js/488.e269ea76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccbd7b88.css",
-    "static/js/main.6d4f41b9.js"
+    "static/css/main.1122f6c6.css",
+    "static/js/main.43b71f9c.js"
   ]
 }
