@@ -129,6 +129,10 @@ export default function Experience() {
             {exp.company && /Orange/i.test(exp.company) && (
               <img src={`${process.env.PUBLIC_URL}/images/Orange_bank.png`} alt="Orange Bank" className="w-20 h-20 object-contain rounded" />
             )}
+            {/* If company contains Conforama, show Conforama logo */}
+            {exp.company && /Conforama/i.test(exp.company) && (
+              <img src={`${process.env.PUBLIC_URL}/images/confo.png`} alt="Conforama" className="w-20 h-20 object-contain rounded" />
+            )}
             <div>
               <h4 className="font-bold text-gray-900 dark:text-white">{exp.title}</h4>
               <span className="block text-gray-700 dark:text-gray-300 font-semibold">
