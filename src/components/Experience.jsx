@@ -13,7 +13,7 @@ const experiences = [
         <h5 className="font-semibold mt-3">Missions réalisées</h5>
         <div className="space-y-3 mt-2 ml-0">
           <div>
-            <strong>Refonte et sécurisation de la DMZ (Fortinet)</strong>
+            <strong>- Refonte et sécurisation de la DMZ (Fortinet)</strong>
             <p><strong>Problème identifié :</strong> la DMZ n’était pas suffisamment cloisonnée ; certaines règles de pare-feu étaient trop permissives.</p>
             <p><strong>Objectif :</strong> renforcer la sécurité et limiter les flux réseau non nécessaires.</p>
             <p><strong>Travail effectué :</strong></p>
@@ -28,7 +28,7 @@ const experiences = [
           </div>
 
           <div>
-            <strong>Remplacement et déploiement de 45 postes utilisateurs</strong>
+            <strong>- Remplacement et déploiement de 45 postes utilisateurs</strong>
             <p><strong>Problème identifié :</strong> de nombreux postes étaient obsolètes et incompatibles avec les politiques de sécurité actuelles (chiffrement, GPO, compatibilité réseau).</p>
             <p><strong>Objectif :</strong> remplacer les anciens PC tout en intégrant les nouveaux dans le domaine Active Directory.</p>
             <p><strong>Travail effectué :</strong></p>
@@ -42,7 +42,7 @@ const experiences = [
           </div>
 
           <div>
-            <strong>Supervision et cartographie du réseau (Zabbix)</strong>
+            <strong>- Supervision et cartographie du réseau (Zabbix)</strong>
             <p><strong>Problème identifié :</strong> les plans réseau n’étaient plus à jour et certaines antennes Wi‑Fi n’étaient pas correctement documentées.</p>
             <p><strong>Objectif :</strong> actualiser la supervision réseau pour améliorer le suivi des équipements.</p>
             <p><strong>Travail effectué :</strong></p>
@@ -56,7 +56,7 @@ const experiences = [
           </div>
 
           <div>
-            <strong>Gestion du parc et assistance technique (GLPI & ManageEngine)</strong>
+            <strong>- Gestion du parc et assistance technique (GLPI & ManageEngine)</strong>
             <p><strong>Problème identifié :</strong> grand nombre d’incidents utilisateurs non centralisés et lenteur dans le traitement.</p>
             <p><strong>Objectif :</strong> améliorer le suivi et la réactivité du support technique.</p>
             <p><strong>Travail effectué :</strong></p>
