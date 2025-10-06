@@ -9,8 +9,8 @@ export default function Hero() {
         </h2>
         <div className="text-xl mb-6 text-gray-700 dark:text-gray-300 space-y-2 max-w-2xl mx-auto leading-relaxed">
           <p>
-            Je m’appelle Adam, étudiant en cybersécurité.<br/>
-            J’aime comprendre comment fonctionnent les systèmes et les réseaux, et je prends plaisir à les administrer et les sécuriser.
+            Recherche d'alternance en Réseaux et Cybersécurité.<br/>
+            Je recherche un poste d'Admistrateur Système et réseaux.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-6">
