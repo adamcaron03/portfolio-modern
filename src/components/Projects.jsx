@@ -11,15 +11,6 @@ const projects = [
     )
   },
   {
-    name: "Installation & gestion de services",
-    description: (
-      <>
-        Installation et gestion de services informatiques pour une entreprise.<br/>
-        <span className="text-sm text-gray-500 dark:text-gray-400">Composé de 5 VM : ipfire, Windows Server, Windows 10, serveur Xubuntu, serveur Debian.</span>
-      </>
-    )
-  },
-  {
     name: "Active Directory & GPO",
     description: (
       <>
