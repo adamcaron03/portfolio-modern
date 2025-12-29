@@ -19,7 +19,7 @@ const experiences = [
     title: "Magasinier (Job étudiant)",
     company: "Conforama",
     companyInfo: null,
-    date: "Oct. 2024 - Oct. 2025",
+    date: "Oct. 2024 - Oct. 2025555555555555",
     description: "Gestion logistique, travail d’équipe, organisation des stocks chaque samedi."
   }
 ];
