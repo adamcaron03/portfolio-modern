@@ -1,33 +1,41 @@
 import React from "react";
 
+// Import des images depuis src/assets/images
+import Fortinet from '../assets/images/Fortinet.png';
+import Zabbix from '../assets/images/Zabbix_logo_square.svg.png';
+import Cisco from '../assets/images/Cisco-Webex-Calling.png';
+import ActiveDirectory from '../assets/images/Active_Directory.png';
+import GLPI from '../assets/images/PictoGlpi.png';
+import Ubuntu from '../assets/images/UbuntuCoF.svg.png';
+
 const competences = [
   {
-  image: "/images/Fortinet.png",
+    image: Fortinet,
     title: "Fortinet - Sécurisation d’infrastructures (DMZ)",
     description: `Hardening et reconfiguration d’une DMZ (firewall Fortinet – règles ACL, segmentation VLAN, gestion des flux entrants/sortants).\nMise en place d’un filtrage granulaire des flux réseau dans une DMZ (principes de moindre privilège, ouverture/fermeture de ports).`
   },
   {
-  image: "/images/Zabbix_logo_square.svg.png",
+    image: Zabbix,
     title: "Zabbix - Supervision & Cartographie",
     description: `Refonte des plans d'un bâtiment pour placer les imprimantes et bornes WiFi à chaque étage, en appliquant leur IP et nom. Mise à jour de la cartographie du plan réseau pour toutes les antennes WiFi de l'entreprise.`
   },
   {
-  image: "/images/Cisco-Webex-Calling.png",
+    image: Cisco,
     title: "TP Réseaux (Cisco) - Architecture & Sécurisation",
     description: `Conception d’une architecture réseau Cisco (routeurs + switchs L3)\n\nÉlaboration d’un plan d’adressage IP (postes clients, serveurs, imprimantes)\n\nSegmentation réseau par VLAN (Direction, Ventes, Comptabilité, Production, Techniciens, Serveurs)\n\nRoutage inter-VLAN et configuration des sous-interfaces (802.1Q)\n\nDéploiement d’un serveur DHCP/DNS et d’un serveur web\n\nConfiguration des passerelles, DNS et réservations IP pour les clients\n\nDocumentation et cartographie réseau (adressage + interconnexions)\n\nMise en place d’une sécurisation des flux via cloisonnement et hiérarchisation des VLAN.`
   },
-{
-  image: "/images/Active_Directory.png",
+  {
+    image: ActiveDirectory,
     title: "Active Directory & Déploiement PC",
     description: `Injection de 45 PC dans le domaine Active Directory, configuration, et mise en place d'un tableau de rendez-vous avec les salariés pour effectuer le remplacement de leur poste et outils de travail.`
   },
   {
-  image: "/images/PictoGlpi.png",
+    image: GLPI,
     title: "GLPI - Gestion de tickets",
     description: `Gestion des tickets pour intervenir sur l'ensemble de l'entreprise (problèmes utilisateurs, techniques, PC, imprimantes, périphériques, etc.). Création de GPO, gestion de VLAN.`
   },
   {
-  image: "/images/UbuntuCoF.svg.png",
+    image: Ubuntu,
     title: "Automatisation & Linux",
     description: `Création de serveurs d'automatisation et de serveurs sous Linux sous forme de VM.`
   }
