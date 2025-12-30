@@ -21,6 +21,13 @@ const experiences = [
     companyInfo: null,
     date: "Oct. 2024 - Oct. 2025",
     description: "Gestion logistique, travail d’équipe, organisation des stocks chaque samedi."
+  },
+  {
+    title: "Préparateur Logistique (Job étudiant)",
+    company: "Leroy Merlin",
+    companyInfo: null,
+    date: "Déc. 2025 - Aujourd'huit",
+    description: "Gestion et organisation des stocks chaque matin."
   }
 ];
 
